@@ -1,0 +1,5 @@
+# Bundle layer applied by `dsh plugin --profile <name> add`: mounts the host plugin.
+# Override config in $DSH_HOME/profiles/<profile>/cordis.patch.yml by targeting id `native-runtimes`.
+- insert:
+    - id: native-runtimes
+      name: dsh-native-runtimes
