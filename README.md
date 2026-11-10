@@ -14,10 +14,10 @@ DSH ships its own Claude Code, Codex and ACP subagents. Those run a bundled copy
 Requires DSH `>=0.2.1-rc.5 <0.3.0` and Node.js 22.19 or later. A runtime is offered only if its CLI is found on this machine and you are signed in to it.
 
 ```sh
-dsh plugin --profile web add https://github.com/william-jin-cmu/dsh-native-runtimes/releases/download/v0.1.0/dsh-native-runtimes-0.1.0.tgz
+dsh plugin --profile web add dsh-native-runtimes
 ```
 
-In the desktop app, use Plugins > Add plugin with the same URL.
+In the desktop app, use Plugins > Add plugin and enter `dsh-native-runtimes`.
 
 ## Sessions
 

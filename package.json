@@ -34,6 +34,15 @@
     "threads"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/william-jin-cmu/dsh-native-runtimes.git"
+  },
+  "homepage": "https://github.com/william-jin-cmu/dsh-native-runtimes#readme",
+  "bugs": {
+    "url": "https://github.com/william-jin-cmu/dsh-native-runtimes/issues"
+  },
+  "author": "William Jin",
   "scripts": {
     "build": "node scripts/build.mjs",
     "typecheck": "tsc --noEmit -p tsconfig.json",
